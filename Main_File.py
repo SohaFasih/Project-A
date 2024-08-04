@@ -3,7 +3,7 @@ Inventory = []
 
 Name = str(input("Enter your name: "))
 print("Welcome to Maplewood!")
-print #game briefing (Details, game handles including inventory)
+print (print ("Welcome to Maplewood, Detective "Name "You've been called to investigate the murder of Mr. John Hastings, a well-respected townsperson. Your goal is to gather clues, interview suspects, and find the murderer. You have four key locations to investigate: Town Hall, Library, Café, and the Victim’s House") #game briefing (Details, game handles including inventory 
 print("Press Enter to begin")
 input()
 print (Locations)
@@ -30,8 +30,8 @@ if loc1.lower() == "victim's house" or loc1.lower() == "victims house":
             while (act2):
                 if (act2 == 'i'):
                     print(Inventory)
-                    act2 = (input("Choose next action \n 1 = Interview suspect \n i = inventory"))
-                    continue
+                    act2 = (input("Choose next action \n 1 = Interview suspect \n i = inventory")) #soha    let come 
+                    continue 
                 elif(act2 == '1'):
                     print ('Dialogue')
                     break
